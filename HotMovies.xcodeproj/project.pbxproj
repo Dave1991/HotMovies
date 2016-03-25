@@ -22,6 +22,8 @@
 		C554BDA81CA2BFF3006333DF /* ServerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C554BDA71CA2BFF3006333DF /* ServerAPIClient.m */; };
 		C554BDAB1CA2C50D006333DF /* AFServerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C554BDAA1CA2C50D006333DF /* AFServerClient.m */; };
 		C554BDAE1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C554BDAD1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m */; };
+		C5F5A9081CA4E97500267055 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5F5A9061CA4E97500267055 /* podfile */; };
+		C5F5A9091CA4E97500267055 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = C5F5A9071CA4E97500267055 /* Podfile.lock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		C554BDAD1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AFNetworking.m"; sourceTree = "<group>"; };
 		C5F5A9041CA42F1400267055 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
 		C5F5A9051CA4308300267055 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C5F5A9061CA4E97500267055 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		C5F5A9071CA4E97500267055 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		C689D9A115BC8948B2035181 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +109,8 @@
 		C524AC231C9C45B000511F4C = {
 			isa = PBXGroup;
 			children = (
+				C5F5A9061CA4E97500267055 /* podfile */,
+				C5F5A9071CA4E97500267055 /* Podfile.lock */,
 				C524AC2E1C9C45B000511F4C /* HotMovies */,
 				C524AC481C9C45B000511F4C /* HotMoviesTests */,
 				C524AC531C9C45B000511F4C /* HotMoviesUITests */,
@@ -302,8 +308,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F5A9091CA4E97500267055 /* Podfile.lock in Resources */,
 				C524AC3F1C9C45B000511F4C /* LaunchScreen.storyboard in Resources */,
 				C524AC3C1C9C45B000511F4C /* Assets.xcassets in Resources */,
+				C5F5A9081CA4E97500267055 /* podfile in Resources */,
 				C524AC661C9C469F00511F4C /* MovieCell.xib in Resources */,
 				C524AC3A1C9C45B000511F4C /* Main.storyboard in Resources */,
 			);
