@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C79513578B477CB4B525937 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AFB094EF9192C7DED72614 /* libPods.a */; };
 		C524AC311C9C45B000511F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC301C9C45B000511F4C /* main.m */; };
 		C524AC341C9C45B000511F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC331C9C45B000511F4C /* AppDelegate.m */; };
 		C524AC371C9C45B000511F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC361C9C45B000511F4C /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		C524AC3F1C9C45B000511F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C524AC3D1C9C45B000511F4C /* LaunchScreen.storyboard */; };
 		C524AC4A1C9C45B000511F4C /* HotMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC491C9C45B000511F4C /* HotMoviesTests.m */; };
 		C524AC551C9C45B000511F4C /* HotMoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC541C9C45B000511F4C /* HotMoviesUITests.m */; };
+		C524AC641C9C468600511F4C /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC631C9C468600511F4C /* MovieCell.m */; };
+		C524AC661C9C469F00511F4C /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C524AC651C9C469F00511F4C /* MovieCell.xib */; };
+		C524AC691C9C49C500511F4C /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = C524AC681C9C49C500511F4C /* Movie.m */; };
+		C554BDA81CA2BFF3006333DF /* ServerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C554BDA71CA2BFF3006333DF /* ServerAPIClient.m */; };
+		C554BDAB1CA2C50D006333DF /* AFServerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C554BDAA1CA2C50D006333DF /* AFServerClient.m */; };
+		C554BDAE1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C554BDAD1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25DF314DFAD91500E0DFC30D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B7AFB094EF9192C7DED72614 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C524AC2C1C9C45B000511F4C /* HotMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C524AC301C9C45B000511F4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C524AC321C9C45B000511F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,20 @@
 		C524AC501C9C45B000511F4C /* HotMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C524AC541C9C45B000511F4C /* HotMoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotMoviesUITests.m; sourceTree = "<group>"; };
 		C524AC561C9C45B000511F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C524AC621C9C468600511F4C /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		C524AC631C9C468600511F4C /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		C524AC651C9C469F00511F4C /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		C524AC671C9C49C500511F4C /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		C524AC681C9C49C500511F4C /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		C554BDA61CA2BFF3006333DF /* ServerAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerAPIClient.h; sourceTree = "<group>"; };
+		C554BDA71CA2BFF3006333DF /* ServerAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerAPIClient.m; sourceTree = "<group>"; };
+		C554BDA91CA2C50D006333DF /* AFServerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFServerClient.h; sourceTree = "<group>"; };
+		C554BDAA1CA2C50D006333DF /* AFServerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFServerClient.m; sourceTree = "<group>"; };
+		C554BDAC1CA2CB51006333DF /* MBProgressHUD+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AFNetworking.h"; sourceTree = "<group>"; };
+		C554BDAD1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AFNetworking.m"; sourceTree = "<group>"; };
+		C5F5A9041CA42F1400267055 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+		C5F5A9051CA4308300267055 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C689D9A115BC8948B2035181 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C79513578B477CB4B525937 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				C524AC481C9C45B000511F4C /* HotMoviesTests */,
 				C524AC531C9C45B000511F4C /* HotMoviesUITests */,
 				C524AC2D1C9C45B000511F4C /* Products */,
+				D0AEB4D223082783FD7B5671 /* Pods */,
+				C585FB0426A52C565BC180D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,10 @@
 		C524AC2E1C9C45B000511F4C /* HotMovies */ = {
 			isa = PBXGroup;
 			children = (
+				C5F5A9051CA4308300267055 /* PrefixHeader.pch */,
+				C5F5A9041CA42F1400267055 /* ACMacros.h */,
+				C554BDAC1CA2CB51006333DF /* MBProgressHUD+AFNetworking.h */,
+				C554BDAD1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m */,
 				C524AC321C9C45B000511F4C /* AppDelegate.h */,
 				C524AC331C9C45B000511F4C /* AppDelegate.m */,
 				C524AC351C9C45B000511F4C /* ViewController.h */,
@@ -110,6 +140,15 @@
 				C524AC3D1C9C45B000511F4C /* LaunchScreen.storyboard */,
 				C524AC401C9C45B000511F4C /* Info.plist */,
 				C524AC2F1C9C45B000511F4C /* Supporting Files */,
+				C524AC621C9C468600511F4C /* MovieCell.h */,
+				C524AC631C9C468600511F4C /* MovieCell.m */,
+				C524AC651C9C469F00511F4C /* MovieCell.xib */,
+				C524AC671C9C49C500511F4C /* Movie.h */,
+				C524AC681C9C49C500511F4C /* Movie.m */,
+				C554BDA61CA2BFF3006333DF /* ServerAPIClient.h */,
+				C554BDA71CA2BFF3006333DF /* ServerAPIClient.m */,
+				C554BDA91CA2C50D006333DF /* AFServerClient.h */,
+				C554BDAA1CA2C50D006333DF /* AFServerClient.m */,
 			);
 			path = HotMovies;
 			sourceTree = "<group>";
@@ -140,6 +179,23 @@
 			path = HotMoviesUITests;
 			sourceTree = "<group>";
 		};
+		C585FB0426A52C565BC180D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7AFB094EF9192C7DED72614 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AEB4D223082783FD7B5671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25DF314DFAD91500E0DFC30D /* Pods.debug.xcconfig */,
+				C689D9A115BC8948B2035181 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C524AC591C9C45B000511F4C /* Build configuration list for PBXNativeTarget "HotMovies" */;
 			buildPhases = (
+				81E7E40C5200294AD9465FAF /* Check Pods Manifest.lock */,
 				C524AC281C9C45B000511F4C /* Sources */,
 				C524AC291C9C45B000511F4C /* Frameworks */,
 				C524AC2A1C9C45B000511F4C /* Resources */,
+				5DD4521E0E80C089FAC47D31 /* Embed Pods Frameworks */,
+				46A2C7CD6899C00314CBFD9B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +304,7 @@
 			files = (
 				C524AC3F1C9C45B000511F4C /* LaunchScreen.storyboard in Resources */,
 				C524AC3C1C9C45B000511F4C /* Assets.xcassets in Resources */,
+				C524AC661C9C469F00511F4C /* MovieCell.xib in Resources */,
 				C524AC3A1C9C45B000511F4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +325,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46A2C7CD6899C00314CBFD9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD4521E0E80C089FAC47D31 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E7E40C5200294AD9465FAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C524AC281C9C45B000511F4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +380,12 @@
 			files = (
 				C524AC371C9C45B000511F4C /* ViewController.m in Sources */,
 				C524AC341C9C45B000511F4C /* AppDelegate.m in Sources */,
+				C524AC691C9C49C500511F4C /* Movie.m in Sources */,
+				C524AC641C9C468600511F4C /* MovieCell.m in Sources */,
+				C554BDA81CA2BFF3006333DF /* ServerAPIClient.m in Sources */,
 				C524AC311C9C45B000511F4C /* main.m in Sources */,
+				C554BDAE1CA2CB51006333DF /* MBProgressHUD+AFNetworking.m in Sources */,
+				C554BDAB1CA2C50D006333DF /* AFServerClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +522,11 @@
 		};
 		C524AC5A1C9C45B000511F4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DF314DFAD91500E0DFC30D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HotMovies/PrefixHeader.pch;
 				INFOPLIST_FILE = HotMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ucas.HotMovies;
@@ -420,8 +536,11 @@
 		};
 		C524AC5B1C9C45B000511F4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C689D9A115BC8948B2035181 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HotMovies/PrefixHeader.pch;
 				INFOPLIST_FILE = HotMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ucas.HotMovies;
@@ -496,6 +615,7 @@
 				C524AC5B1C9C45B000511F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C524AC5C1C9C45B000511F4C /* Build configuration list for PBXNativeTarget "HotMoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +624,7 @@
 				C524AC5E1C9C45B000511F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C524AC5F1C9C45B000511F4C /* Build configuration list for PBXNativeTarget "HotMoviesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +633,7 @@
 				C524AC611C9C45B000511F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
